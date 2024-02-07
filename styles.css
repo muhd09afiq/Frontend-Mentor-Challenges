@@ -55,5 +55,18 @@ header {
   text-align: center;
 }
 
+h1 {
+  font-size: var(--fs-600);
+  font-weight: var(--fw-bold);
+}
+
+.h1--light {
+  font-weight: var(--fw-light);
+}
+
 .wrapper {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
 }
