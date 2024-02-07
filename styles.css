@@ -10,11 +10,19 @@
 - Very Light Gray: hsl(0, 0%, 98%)
  */
 
+html {
+  font-size: 15px;
+}
+
 :root {
   --ff-poppins: "Poppins", sans-serif;
   --fw-light: 200;
   --fw-normal: 400;
   --fw-bold: 600;
+
+  --fs-200: 1rem;
+  --fs-400: 1.13rem;
+  --fs-600: 2rem;
 
   --clr-red: hsl(0, 78%, 62%);
   --clr-cyan: hsl(180, 62%, 55%);
