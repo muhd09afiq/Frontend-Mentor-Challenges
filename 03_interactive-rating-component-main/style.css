@@ -3,3 +3,15 @@
 *::after {
   box-sizing: border-box;
 }
+
+:root {
+  --clr-orange: hsl(25, 97%, 53%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-lightgrey: sl(217, 12%, 63%);
+  --clr-grey: hsl(216, 12%, 54%);
+  --clr-blue: hsl(213, 19%, 18%);
+  --clr-darkblue: hsl(216, 12%, 8%);
+
+  --fnt-normal: 400;
+  --fnt-bold: 700;
+}
