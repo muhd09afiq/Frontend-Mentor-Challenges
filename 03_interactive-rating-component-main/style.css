@@ -7,7 +7,7 @@
 :root {
   --clr-orange: hsl(25, 97%, 53%);
   --clr-white: hsl(0, 0%, 100%);
-  --clr-lightgrey: sl(217, 12%, 63%);
+  --clr-lightgrey: hsl(217, 12%, 63%);
   --clr-grey: hsl(216, 12%, 54%);
   --clr-blue: hsl(213, 19%, 18%);
   --clr-darkblue: hsl(216, 12%, 8%);
@@ -30,19 +30,30 @@ body {
 
 .container {
   width: clamp(11.25rem, 96vh, 21.875rem);
-  background-color: var(--clr-blue);
+  background-color: hsl(215, 22%, 15%);
   padding-bottom: 10px;
   border-radius: 15px;
   padding: 1.25rem;
 }
 
+h1 {
+  color: var(--clr-white);
+}
+
 .score-button {
-  --btn-size: 3.125rem;
+  --btn-size: 2.5rem;
   display: inline-block;
   border-radius: 50%;
   height: var(--btn-size);
   width: var(--btn-size);
-  background-color: var(--clr-grey);
+  background-color: hsl(210, 19%, 18%);
+  color: var(--clr-grey);
+}
+
+#submitBtn {
+  display: block;
+  width: 100%;
+  background-color: var(--clr-orange);
 }
 
 .hidden {
