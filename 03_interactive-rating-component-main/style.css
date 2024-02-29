@@ -35,3 +35,11 @@ body {
   border-radius: 15px;
   padding: 1.25rem;
 }
+
+.hidden {
+  display: none;
+}
+
+.show {
+  display: block;
+}
