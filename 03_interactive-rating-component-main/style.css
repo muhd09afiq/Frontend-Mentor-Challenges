@@ -36,6 +36,15 @@ body {
   padding: 1.25rem;
 }
 
+.score-button {
+  --btn-size: 3.125rem;
+  display: inline-block;
+  border-radius: 50%;
+  height: var(--btn-size);
+  width: var(--btn-size);
+  background-color: var(--clr-grey);
+}
+
 .hidden {
   display: none;
 }

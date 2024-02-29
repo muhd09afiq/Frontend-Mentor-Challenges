@@ -13,6 +13,7 @@ submitBtn.addEventListener("click", function () {
   afterRatingState.classList.add("show");
 });
 
+//scoring logic
 const ratingBtn = document.querySelectorAll("button[data-score]");
 const ratingResult = document.getElementById("rating");
 
